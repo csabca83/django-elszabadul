@@ -7,4 +7,4 @@ django-admin startproject BLACKPERSON
 cd BLACKPERSON
 python manage.py
 
-asd
+asd1
