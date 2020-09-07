@@ -2,10 +2,12 @@
 Django gets released
 
 --CREATING NEW PROJECT--
+
 django-admin startproject BLACKPERSON
 
 
 --RUN THE SERVER--
+
 cd BLACKPERSON
 python manage.py runserver
 
@@ -33,4 +35,5 @@ git checkout -b #Enter your test branch from where the pull request can be merge
 '''Merge requires review from administrators or from other contributors'''
 
 '''SWITCH LOCAL BRANCH'''
+
 git checkout <Enter your existing branch, just in case if you want to switch>
