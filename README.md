@@ -44,7 +44,12 @@ python3 -m venv #random name#
 ........................
 
 cd BLACKPERSON
+
 python manage.py runserver
+
+'''CREATE YOUR APP'''
+
+python manage.py startapp
 
 ........................
 
