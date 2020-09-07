@@ -23,7 +23,7 @@ git branch -d #Insert your local branch here#
 
 '''DELETE REMOTE BRANCH'''
 
-git push origin --delete #Inser your remote branch here#
+git push origin --delete #Insert your remote branch here#
 
 '''CREATE NEW LOCAL BRANCH'''
 
