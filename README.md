@@ -1,17 +1,56 @@
 # django-elszabadul
 Django gets released
 
+........................
+
 --CREATING NEW PROJECT--
+
+........................
+
 
 django-admin startproject BLACKPERSON
 
+........................
+
+--USEFUL PIP COMMANDS--
+
+........................
+
+
+'''UNINSTALLING CURRENT MODULES'''
+
+pip freeze > requirements.txt #this can be any can of text file, but we usually use requirements.txt#
+
+pip uninstall -r requirements.txt -y
+
+'''INSTALLING PIP MODULES FROM A TEXT FILE'''
+
+pip install -r requirements.txt
+
+........................
+
+--USING PIPENV--
+
+........................
+
+sudo apt install python3-pyvenv
+
+python3 -m venv #random name#
+
+........................
 
 --RUN THE SERVER--
+
+........................
 
 cd BLACKPERSON
 python manage.py runserver
 
+........................
+
 --USEFUL GIT COMMANDS--
+
+........................
 
 git init
 
